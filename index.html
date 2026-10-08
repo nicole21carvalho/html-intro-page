@@ -1,18 +1,39 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-BR">
 <head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Page Title</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-    <script src='main.js'></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Página de apresentação feita na primeira aula de HTML do curso de Análise e Desenvolvimento de Sistemas.">
+  <title>Nicole · Introdução ao HTML</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="main.css">
 </head>
 <body>
+  <main class="cartao">
+    <div class="ilustracao" aria-hidden="true">
+      <span class="tag">&lt;h1&gt;</span>
+      <span class="tag tag--classe">.ads</span>
+      <span class="tag tag--id">#devfront</span>
+    </div>
+
+    <!-- Seletor de elemento: h1 -->
     <h1>Nicole</h1>
-    <p class= "ads">Análise e desenvolvimento de Sistemas </p>
+
+    <!-- Seletor de classe: .ads (pode ser usado em vários elementos) -->
+    <p class="ads">Análise e Desenvolvimento de Sistemas</p>
+
+    <!-- Seletor de id: #devfront (único na página) -->
     <p id="devfront">Desenvolvimento Front-End</p>
-    <div class="ads">Classe</div>
-    <img src="https://www.insper.edu.br/wp-content/uploads/2023/04/Linguagen-de-programacao-2-shutterstock_1680857539.jpg.jpeg" alt="Programação">
+
+    <ul class="ads conceitos" aria-label="O que esta página pratica">
+      <li>Estrutura de um documento HTML</li>
+      <li>Títulos, parágrafos e listas</li>
+      <li>Seletores de elemento, classe e id no CSS</li>
+    </ul>
+
+    <a class="botao" href="https://github.com/nicole21carvalho">Ver meus projetos no GitHub →</a>
+  </main>
 </body>
 </html>
