@@ -1,6 +1,6 @@
 # 👋 Introdução ao HTML
 
-Página de apresentação feita na **primeira aula de HTML** do curso de **Análise e Desenvolvimento de Sistemas**, na disciplina de Desenvolvimento Front-End. Pratica a estrutura de um documento HTML e os três tipos básicos de seletor do CSS.
+Cartão de apresentação feito na **primeira aula de HTML**, na disciplina de **Desenvolvimento Front-End**. Pratica a estrutura de um documento HTML e os três tipos básicos de seletor do CSS.
 
 <p align="center">
   <img src="docs/screenshot.jpg" alt="Cartão de apresentação com o nome Nicole, o curso e a disciplina" width="640">
@@ -11,7 +11,7 @@ Página de apresentação feita na **primeira aula de HTML** do curso de **Anál
 | Seletor | Exemplo | Onde aparece |
 |---|---|---|
 | Elemento | `h1 { … }` | O nome, com texto em degradê |
-| Classe | `.ads { … }` | O curso e a lista de conceitos (a mesma classe em dois elementos) |
+| Classe | `.curso { … }` | O curso e a lista de conceitos (a mesma classe em dois elementos) |
 | Id | `#devfront { … }` | A etiqueta da disciplina (um único elemento) |
 
 O [`main.css`](main.css) tem comentários explicando cada um.

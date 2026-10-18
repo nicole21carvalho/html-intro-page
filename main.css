@@ -1,7 +1,7 @@
 /*
  * Esta página pratica os três tipos básicos de seletor do CSS:
  *   h1        → seletor de elemento (todos os <h1>)
- *   .ads      → seletor de classe (todos os elementos com class="ads")
+ *   .curso    → seletor de classe (todos os elementos com class="curso")
  *   #devfront → seletor de id (o único elemento com id="devfront")
  */
 
@@ -80,7 +80,7 @@ h1 {
 }
 
 /* Seletor de classe */
-.ads {
+.curso {
   margin-top: 12px;
   font-size: 1.25rem;
   font-weight: 600;
@@ -98,7 +98,7 @@ h1 {
   font-weight: 600;
 }
 
-/* Lista também usa a classe .ads: mesma cor, ajustada para lista */
+/* Lista também usa a classe .curso: mesma cor, ajustada para lista */
 .conceitos {
   display: grid;
   gap: 6px;
